@@ -9,7 +9,7 @@ import com.comunidadedevspace.taskbeats.data.local.TaskDao
 
 class TaskListViewModel(taskDao: TaskDao) : ViewModel() {
 
-    val taskListLiveData: LiveData<List<Task>> = taskDao.getAll()
+    val taskListLiveData: LiveData<List<Task>> = taskDao.getAllLiveData()
 
     companion object {
         fun create(application: Application): TaskListViewModel {

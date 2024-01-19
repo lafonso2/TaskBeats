@@ -40,17 +40,17 @@ class NewsListAdapter : ListAdapter<News, NewsListViewHolder>(NewsListAdapter) {
 }
 
 class NewsListViewHolder(
-    private val view: View
-) : RecyclerView.ViewHolder(view) {
+    private val NewsView: View
+) : RecyclerView.ViewHolder(NewsView) {
 
-    private val tvTitle = view.findViewById<TextView>(R.id.tv_news_title)
-    private val imgNews = view.findViewById<ImageView>(R.id.iv_news)
+    val newsTitle = NewsView.findViewById<TextView>(R.id.tv_news_title)
+    val imgUrl = NewsView.findViewById<ImageView>(R.id.iv_news)
 
     fun bind(
-        news: News
-    ){
-        tvTitle.text = news.title
-        imgNews.load(news.imgUrl){
+        news: News,
+    ) {
+        newsTitle.text = news.title
+        imgUrl.load(news.imgUrl){
             transformations(RoundedCornersTransformation(12f))
         }
     }

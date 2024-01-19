@@ -14,7 +14,7 @@ interface TaskDao {
     suspend fun insert(task: Task)
 
     @Query("Select * from task")
-    fun getAll(): LiveData<List<Task>>
+    fun getAllLiveData(): LiveData<List<Task>>
 
     @Query("DELETE from task")
     suspend fun deleteAll()
