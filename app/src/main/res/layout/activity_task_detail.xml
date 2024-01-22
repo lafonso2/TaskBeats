@@ -14,7 +14,7 @@
         android:layout_marginStart="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Titulo" />
+        android:text="Title" />
 
     <EditText
         android:id="@+id/edt_task_title"
@@ -22,7 +22,7 @@
         android:layout_marginEnd="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Adicione um título para a tarefa" />
+        android:hint="Add a title for the Task" />
 
     <TextView
         style="@style/Title3"
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Descrição" />
+        android:text="Description" />
 
     <EditText
         android:id="@+id/edt_task_description"
@@ -39,7 +39,7 @@
         android:layout_marginEnd="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Adicione uma descrição para a tarefa" />
+        android:hint="Add a description for the Task" />
 
     <Button
         android:id="@+id/btn_done"
@@ -49,6 +49,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Concluir" />
+        android:text="Finish" />
 
 </LinearLayout>

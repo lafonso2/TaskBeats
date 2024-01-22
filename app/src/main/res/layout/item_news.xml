@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="18dp"
                 android:layout_marginEnd="4dp"
-                android:text="Exemplo de notícias para o titulo"
+                android:text="News example for title"
                 app:layout_constraintEnd_toStartOf="@+id/iv_news"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/iv_news" />
