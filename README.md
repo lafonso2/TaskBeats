@@ -4,7 +4,7 @@ TaskBeats is an app to help organize tasks, by listing them. The app also has a 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
 <img src="/result/img1.png" width="260">&emsp;<img src="/result/img2.png" width="260">&emsp;<img src="/result/img3.png" width="260">
-<img src="/result/img4.png" width="260">&emsp;<img src="/result/img5.png" width="260">&emsp
+<img src="/result/img4.png" width="260">&emsp;<img src="/result/img5.png" width="260">
 
 ## Tools and Resources Aplied
 - Kotlin
